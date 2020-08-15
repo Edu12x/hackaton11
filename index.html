@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/main.css">
+
+  </head>
+  <body>
+    <div class="ejercicios">
+      <div class="calculadora">
+        <div class="title">Calculadora</div>
+        <div class="calculadora_container">
+          <div class="calculadora_wrap">
+            <div class="js_screen_historial"></div>
+            <div class="js_main_screen"></div>
+            <div>
+              <ul class="number">
+                <li class="js_number">7</li>
+                <li class="js_number">8</li>
+                <li class="js_number">9</li>
+                <li class="js_sign">*</li>
+                <li class="js_number">4</li>
+                <li class="js_number">5</li>
+                <li class="js_number">6</li>
+                <li class="js_sign">-</li>
+                <li class="js_number">1</li>
+                <li class="js_number">2</li>
+                <li class="js_number">3</li>
+                <li class="js_sign">+</li>
+                <li class="js_sign">/</li>
+                <li class="js_number">0</li>
+                <li class="js_number">.</li>
+                <li class="js_result">=</li>
+                <li class="js_sign">**</li>
+                <li class="js_sign">(</li>
+                <li class="js_sign">)</li>
+                <li class="js_reset">CE</li>
+              </ul>
+            </div>
+          </div>
+          <div class="js_historial"></div>
+        </div>
+      </div>
+      <div class="js_ActivityList">
+        <div class="title">Lista de Actividades</div>
+        <form action="">
+          <input
+            class="js_listAdd"
+            type="Text"
+            placeholder="Ingresar lista de actividades"
+          />
+          <br />
+          <button class="js_button">Agregar</button>
+        </form>
+        <ul class="container" id="container"></ul>
+      </div>
+    </div>
+    <footer>
+        Hecho por Jorge Urrutia
+    </footer>
+
+    <script src="./scripts/main.js"></script>
+    
+  </body>
+</html>

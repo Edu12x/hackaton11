@@ -1,0 +1,82 @@
+body {
+  margin: 0px;
+  font-family: Arial;
+  box-sizing: border-box;
+}
+
+.calculadora_wrap {
+  background-color: white;
+  border: gray solid;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 4px 4px 5px gray;
+}
+
+.calculadora_container {
+  margin-left: 20%;
+  display: flex;
+}
+
+.number {
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+.js_number {
+  background-color: gray;
+}
+.js_sign,
+.js_result,
+.js_reset {
+  background-color: black;
+}
+
+.number li {
+  list-style: none;
+  padding: 20px;
+}
+
+.number li:hover {
+  background-color: blue;
+  cursor: pointer;
+  font-size: 15px;
+}
+h3 p {
+  color: blue;
+  margin: 20px;
+}
+
+h2 p {
+  color: red;
+  margin: 10px;
+}
+
+.ejercicios {
+  display: flex;
+  width: 100%;
+}
+.js_list {
+  font-family: Arial;
+  font-size: 12px;
+}
+.container {
+  margin-top: 50px;
+}
+.title{
+    text-align: center;
+    padding: 1%;
+    color: gray;
+    font-weight: bold;
+    font-size: 30px;
+    box-shadow: 4px 4px 20px gray;
+    border-radius: 40px;
+    margin: 20px;
+}
+
+footer{
+    padding: 1%;
+    color: blue;
+    font-weight: bold;
+    margin: 20px;
+}
