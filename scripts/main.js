@@ -95,7 +95,7 @@
       form.onsubmit = function (send) {
         send.preventDefault();
         const activity = add.value;
-        const list = document.createElement("li");
+        let list = document.createElement("li");
         list.classList.add("js_list");
         list.innerHTML = `${activity} <div><button class='check'>Ok</button> <button class='remove'>X</button></div>`;
         container.appendChild(list);

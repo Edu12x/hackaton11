@@ -1,0 +1,23 @@
+{
+  "name": "hackaton11",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Edu12x/hackaton11.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Edu12x/hackaton11/issues"
+  },
+  "homepage": "https://github.com/Edu12x/hackaton11#readme",
+  "dependencies": {
+    "uglify-js": "^3.10.1"
+  }
+}
